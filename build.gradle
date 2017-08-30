@@ -25,4 +25,7 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile group: 'com.typesafe.akka', name: 'akka-actor_2.11', version: '2.5.4'
+	compile group: 'com.typesafe.akka', name: 'akka-slf4j_2.11', version: '2.5.4'
 }
+
